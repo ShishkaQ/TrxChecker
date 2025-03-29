@@ -1,7 +1,7 @@
-from sqlalchemy import Column, Integer, String, Float, select
+from sqlalchemy import select
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy.orm import declarative_base, sessionmaker
-from backend.app.schemas import UserResponse, User
+from backend.app.schemas import User
 
 # Настройка подключения к БД
 SQLALCHEMY_DATABASE_URL = "postgresql+asyncpg://postgres:mysecretpassword@localhost:5432/trondb"
@@ -35,6 +35,5 @@ async def get_all_data():
         result = await session.execute(select(User))
         users = result.scalars().all()
         
-        # Используем метод to_dict() или фильтрацию __dict__
         return [user.to_dict() for user in users]
         
