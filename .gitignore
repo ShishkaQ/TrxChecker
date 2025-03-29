@@ -20,3 +20,17 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+#Python
+__pycache__
+.pytest_cache
+
+# env file
+.env
+
+#enve 
+trx/
+
+# Postgresql
+data/
+backups/
