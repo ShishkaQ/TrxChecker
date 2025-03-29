@@ -25,8 +25,7 @@ TestResults.xml
 __pycache__
 .pytest_cache
 
-# env file
-.env
+
 
 #enve 
 trx/
