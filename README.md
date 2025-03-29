@@ -27,7 +27,7 @@ cd ../
 ```bash
 uvicorn backend.app.main:app --reload
 ```
-5.1 Добавьте токен в .env (получить на сайте [TronGrid Dashboard]https://www.trongrid.io/)
+5.1 Добавьте токен в .env (получить на сайте [TronGrid Dashboard](https://www.trongrid.io/))
 
 
 # Frontend Service
