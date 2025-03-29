@@ -83,9 +83,13 @@ npm run dev
 
 # Tests
 ## Запуск тестов
-1. Перейдите в :
+1. Перейдите в корневую папку:
 ```bash
-cd frontend/vue-project
+cd TrxChecker
+```
+2. Запустить тесты
+```bash
+pytest backend/tests/test_api.py -v
 ```
 
 
