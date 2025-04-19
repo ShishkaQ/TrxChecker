@@ -1,8 +1,8 @@
 # TrxChecker
 Сканер TRX адресов
 ## Оглавление 
-- [Backend](#backend)  
-- [Frontend](#frontend)  
+- [Backend](backend/README.md)  
+- [Frontend](frontend/README.md)  
 
 
 ## Превью
