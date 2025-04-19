@@ -27,3 +27,14 @@ cd ../
 ```bash
 uvicorn backend.app.main:app --reload
 ```
+
+# Tests
+## Запуск тестов
+1. Перейдите в корневую папку:
+```bash
+cd TrxChecker
+```
+2. Запустить тесты
+```bash
+pytest backend/tests/test_api.py -v
+```
